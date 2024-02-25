@@ -5,11 +5,7 @@
 
 ## Database 
 
-We worked on the tangui's school database. If you want to connect to it, enter following command :
-`psql -h postgres -U steimetz livres`.
-The password is ***ensicaen***.
-
-If you want use a standard login name, you can use ; first name = **John** and last name = **Doe**
+We worked on the tangui's school database. Not available for other people.
 
 ## Problem
 
