@@ -1,0 +1,124 @@
+@import url(general.css);
+ 
+header {
+    background-color: #ffddc3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#user_info {
+    display: flex;
+}
+
+#user_info > * {
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+#user_info > form > * {
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+  
+#main-header {
+    font-size: 36px;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+  
+nav {
+    background-color: #fff;
+    width: 30%;
+    padding: 10px;
+    height: fit-content;
+}
+  
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff4ef;
+    color: #68819b;
+}
+  
+#search-text {
+    font-size: 24px;
+    margin: 0;
+}
+  
+#results-search-section {
+    width: 70%;
+    padding: 20px;
+}
+  
+#second-header, #author, #works {
+    background-color: #ff4a3b;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#second-header {
+    text-align: center;
+}
+
+#result div {
+    width: 50%;
+}
+
+#result div div {
+    width: 100%;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+	font-size: 16px;
+    border-bottom: 1px solid #ccc;
+	font-style: italic;
+}
+
+#search-section li {
+	padding: 10px;
+	font-size: 24px;
+	font-style: normal;
+}
+  
+li:last-child {
+    border-bottom: none;
+}
+
+#list2 ol li ul li {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#list2 ol li ul li p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#list2 ol li ul li button {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 12px;
+}

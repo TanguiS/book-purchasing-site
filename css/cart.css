@@ -1,0 +1,44 @@
+#dialogCart {
+    background-color: #fff4ef;
+    color: #68819b;
+}
+
+.table-style {
+    font-size: 20px;
+    margin: auto;
+    width: calc(100% - 50px);
+}
+
+.table-style table {
+    font-size: 20px;
+    table-layout: fixed;
+    width: 100%;
+    border: 5px double #ffddc3;
+    border-collapse: collapse;
+}
+
+.table-style table th:nth-child(1),
+.table-style table th:nth-child(2) {
+    width: 35%;
+}
+
+.table-style table th:nth-child(4),
+.table-style table th:nth-child(3) {
+    width: 15%;
+}
+
+.table-style table th,
+.table-style table td {
+    border: 5px double #ffddc3;
+    border-collapse: collapse;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.table-style table tr > td:nth-child(4),
+.table-style table tr > td:nth-child(4),
+.table-style table tr > td:nth-child(3),
+.table-style table tr > td:nth-child(3) {
+    text-align: center;
+    padding: 5px !important;
+}

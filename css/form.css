@@ -1,0 +1,90 @@
+@import url(general.css);
+
+.information-style {
+    background-color: #ffddc3;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-bottom: 0;
+}
+
+.two-columns {
+    grid-column: 1 / span 2;
+}
+
+label {
+    display: block;
+    color: #68819b;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.other-connection {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.other-connection a {
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.other-connection a:hover {
+    text-decoration: underline;
+    background-color: #ff4a3b;
+    border: 2px #ff4a3b solid;
+    color: #fff;
+}
+
+.other-connection p {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.err-msg {
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 80%;
+}
+
+.err-msg > p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
